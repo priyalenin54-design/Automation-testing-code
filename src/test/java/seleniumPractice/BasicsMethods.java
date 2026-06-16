@@ -19,7 +19,7 @@ public class BasicsMethods {
 		driver.findElement(By.id("phone")).sendKeys("7401410546");
 		driver.findElement(By.id("textarea")).sendKeys("NO-205,Perungalathur,chennai-600063");
 		System.out.println("New branch is added");
-		
+		System.out.println(driver.getCurrentUrl());
 		
 		
 	}
